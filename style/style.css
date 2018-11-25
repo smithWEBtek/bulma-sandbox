@@ -1,0 +1,9 @@
+.menu-list-item {
+	background-color: rgb(207, 202, 195);
+	font-weight: bold;
+	font-style: normal;
+}
+.menu-list-item:hover {
+	font-style: italic;
+	color: red;
+}

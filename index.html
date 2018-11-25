@@ -5,15 +5,507 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.4.2/css/bulma.css">
+	<link rel="stylesheet" href="./style/style.css">
 	<title>Bulma Sandbox</title>
 </head>
 
 <body>
 	<div class="container">
-		<div class="columns">
-			<div class="column">Hello World</div>
+		<!-- Headings -->
+		<div class="block">
+			<h1 class="title">Hello World</h1>
+			<h1 class="subtitle">Hello World</h1>
+			<!-- Sizes -->
+			<h1 class="title is-1">Hello World</h1>
+			<h2 class="title is-2">Hello World</h2>
+			<h3 class="title is-3">Hello World</h3>
+			<h4 class="title is-4">Hello World</h4>
+			<h5 class="title is-5">Hello World</h5>
+			<h6 class="title is-6">Hello World</h6>
 		</div>
-	</div>
+
+		<!-- Content -->
+		<div class="block">
+			<p class="content is-small">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, mollitia?</p>
+			<p class="content is-medium">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, mollitia?</p>
+			<p class="content is-large">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum, mollitia?</p>
+		</div>
+
+		<!-- Buttons -->
+		<div class="block">
+			<button class='button'>Button</button>
+			<button class='button is-white'>Button</button>
+			<button class='button is-light'>Button</button>
+			<button class='button is-dark'>Button</button>
+			<button class='button is-black'>Button</button>
+			<button class='button is-link'>Button</button>
+		</div>
+		<div class="block">
+			<a href="#" class="button is-primary">primary</a>
+			<a href="#" class="button is-info">info</a>
+			<a href="#" class="button is-success">success</a>
+			<a href="#" class="button is-warning">warning</a>
+			<a href="#" class="button is-danger">danger</a>
+		</div>
+		<div class="block">
+			<a href="#" class="button is-primary is-small">primary-small</a>
+			<a href="#" class="button is-info is-medium">info-medium</a>
+			<a href="#" class="button is-success is-large">succes-large</a>
+		</div>
+		<div class="block">
+			<a href="#" class="button is-primary is-outlined">outlined</a>
+			<a href="#" class="button is-info is-outlined">info</a>
+			<a href="#" class="button is-success is-outlined">success</a>
+			<a href="#" class="button is-warning is-outlined">warning</a>
+			<a href="#" class="button is-danger is-outlined">danger</a>
+		</div>
+		<div class="block">
+			<a href="#" class="button is-primary is-inverted">outlined</a>
+			<a href="#" class="button is-info is-inverted">info</a>
+			<a href="#" class="button is-success is-inverted">success</a>
+			<a href="#" class="button is-warning is-inverted">warning</a>
+			<a href="#" class="button is-danger is-inverted">danger</a>
+		</div>
+		<div class="block">
+			<a href="#" class="button is-hovered">hovered</a>
+			<a href="#" class="button is-focused">focused</a>
+			<a href="#" class="button is-active">active</a>
+			<a href="#" class="button is-loading">loading</a>
+			<a href="#" class="button is-disabled">disabled</a>
+		</div>
+
+		<!-- Box -->
+		<div class="block">
+			<div class="box">
+				<h1 class="title">Hello World</h1>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique atque sint nam natus pariatur beatae? Rem
+					magnam expedita aut!</p>
+			</div>
+		</div>
+		<div class="block">
+			<div class="notification">
+				<button class="delete"></button>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum aut praesentium ex expedita dignissimos
+					pariatur
+					eveniet culpa minima quidem provident.</p>
+			</div>
+			<div class="notification is-primary">
+				<button class="delete"></button>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum aut praesentium ex expedita dignissimos
+					pariatur
+					eveniet culpa minima quidem provident.</p>
+			</div>
+			<div class="notification is-info">
+				<button class="delete"></button>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum aut praesentium ex expedita dignissimos
+					pariatur
+					eveniet culpa minima quidem provident.</p>
+			</div>
+			<div class="notification is-success">
+				<button class="delete"></button>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum aut praesentium ex expedita dignissimos
+					pariatur
+					eveniet culpa minima quidem provident.</p>
+			</div>
+			<div class="notification is-warning">
+				<button class="delete"></button>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum aut praesentium ex expedita dignissimos
+					pariatur
+					eveniet culpa minima quidem provident.</p>
+			</div>
+			<div class="notification is-danger">
+				<button class="delete"></button>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum aut praesentium ex expedita dignissimos
+					pariatur
+					eveniet culpa minima quidem provident.</p>
+			</div>
+
+			<!-- Tags -->
+			<span class="tag">Hello</span>
+			<span class="tag is-black">black</span>
+			<span class="tag is-dark">dark</span>
+			<span class="tag is-light">light</span>
+			<span class="tag is-white">white</span>
+			<span class="tag is-primary">primary</span>
+			<span class="tag is-info">info</span>
+			<span class="tag is-success is-medium">success</span>
+			<span class="tag is-danger is-large">danger<button class="delete"></button></span>
+		</div>
+
+		<!-- Messages -->
+		<div class="block">
+			<article class="message">
+				<div class="message-header">
+					<p>About Us</p>
+				</div>
+				<div class="message-body">
+					<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut velit, aspernatur
+						possimus
+						perferendis
+						aperiam
+						accusantium, fugit a enim veniam atque voluptas animi adipisci corrupti minus eum tempora expedita qui
+						consequatur
+						at. Aspernatur cum maiores, inventore accusamus nostrum deleniti atque, quod mollitia tenetur laudantium minima
+						repellat totam ab, natus explicabo alias.</p>
+				</div>
+			</article>
+			<article class="message is-primary">
+				<div class="message-header">
+					<p>About Us</p>
+				</div>
+				<div class="message-body">
+					<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut velit, aspernatur
+						possimus
+						perferendis
+						aperiam
+						accusantium, fugit a enim veniam atque voluptas animi adipisci corrupti minus eum tempora expedita qui
+						consequatur
+						at. Aspernatur cum maiores, inventore accusamus nostrum deleniti atque, quod mollitia tenetur laudantium minima
+						repellat totam ab, natus explicabo alias.</p>
+				</div>
+			</article>
+			<article class="message is-success">
+				<div class="message-header">
+					<p>About Us</p>
+				</div>
+				<div class="message-body">
+					<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut velit, aspernatur
+						possimus
+						perferendis
+						aperiam
+						accusantium, fugit a enim veniam atque voluptas animi adipisci corrupti minus eum tempora expedita qui
+						consequatur
+						at. Aspernatur cum maiores, inventore accusamus nostrum deleniti atque, quod mollitia tenetur laudantium minima
+						repellat totam ab, natus explicabo alias.</p>
+				</div>
+			</article>
+			<article class="message is-info">
+				<div class="message-header">
+					<p>About Us</p>
+				</div>
+				<div class="message-body">
+					<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut velit, aspernatur
+						possimus
+						perferendis
+						aperiam
+						accusantium, fugit a enim veniam atque voluptas animi adipisci corrupti minus eum tempora expedita qui
+						consequatur
+						at. Aspernatur cum maiores, inventore accusamus nostrum deleniti atque, quod mollitia tenetur laudantium minima
+						repellat totam ab, natus explicabo alias.</p>
+				</div>
+			</article>
+			<article class="message is-warning">
+				<div class="message-header">
+					<p>About Us</p>
+				</div>
+				<div class="message-body">
+					<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut velit, aspernatur
+						possimus
+						perferendis
+						aperiam
+						accusantium, fugit a enim veniam atque voluptas animi adipisci corrupti minus eum tempora expedita qui
+						consequatur
+						at. Aspernatur cum maiores, inventore accusamus nostrum deleniti atque, quod mollitia tenetur laudantium minima
+						repellat totam ab, natus explicabo alias.</p>
+				</div>
+			</article>
+			<article class="message is-danger">
+				<div class="message-header">
+					<p>About Us</p>
+				</div>
+				<div class="message-body">
+					<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ut velit, aspernatur
+						possimus
+						perferendis
+						aperiam
+						accusantium, fugit a enim veniam atque voluptas animi adipisci corrupti minus eum tempora expedita qui
+						consequatur
+						at. Aspernatur cum maiores, inventore accusamus nostrum deleniti atque, quod mollitia tenetur laudantium minima
+						repellat totam ab, natus explicabo alias.</p>
+				</div>
+			</article>
+		</div>
+
+		<!-- Nav -->
+		<div class="block">
+			<nav class="nav">
+
+				<div class="nav-left">
+					<a href="#" class="nav-item">
+						<h1 class='title is-4'>smithWEBtek</h1>
+					</a>
+				</div>
+
+				<div class="nav-center">
+					<a href="#" class="nav-item">
+						<span class="icon">
+							<i class="fa fa-github"></i>
+						</span>
+					</a>
+					<a href="#" class="nav-item">
+						<span class="icon">
+							<i class="fa fa-twitter"></i>
+						</span>
+					</a>
+					<a href="#" class="nav-item">
+						<span class="icon">
+							<i class="fa fa-linkedin"></i>
+						</span>
+					</a>
+					<a href="#" class="nav-item">
+						<span class="icon">
+							<i class="fa fa-instagram"></i>
+						</span>
+					</a>
+					<a href="#" class="nav-item">
+						<span class="icon">
+							<i class="fa fa-vimeo"></i>
+						</span>
+					</a>
+					<a href="#" class="nav-item">
+						<span class="icon">
+							<i class="fa fa-youtube"></i>
+						</span>
+					</a>
+				</div>
+
+				<div class="nav-right nav-menu">
+					<a href="#" class="nav-item">Home</a>
+					<a href="#" class="nav-item">About Us</a>
+					<a href="#" class="nav-item">Contact</a>
+				</div>
+			</nav>
+		</div>
+
+		<!-- Side Menu -->
+		<div class="block">
+			<aside class="menu">
+				<p class="menu-label">
+					Label 1
+				</p>
+				<ul class="menu-list">
+					<li><a href="#">Link 1</a></li>
+					<li><a href="#">Link 2</a></li>
+				</ul>
+				<p class="menu-label">
+					Label 2
+				</p>
+				<ul class="menu-list">
+					<li>
+						<a class='is-active' href="#">Link 1</a>
+						<ul>
+							<li><a href="#">Link 1</a></li>
+							<li><a href="#">Link 2</a></li>
+							<li><a href="#">Link 3</a></li>
+						</ul>
+					</li>
+					<li>
+						<a class='is-active' href="#">Link 2</a>
+						<ul>
+							<li><a href="#">Link 1</a></li>
+							<li><a href="#">Link 2</a></li>
+							<li><a href="#">Link 3</a></li>
+						</ul>
+					</li>
+					<a class='is-active' href="#">Link 3</a>
+					<a class='is-active' href="#">Link 4</a>
+					<a class='is-active' href="#">Link 5</a>
+				</ul>
+			</aside>
+		</div>
+
+		<!-- Hero -->
+		<div class="block">
+			<section class="hero">
+				<div class="hero-body">
+					<div class="container">
+						<h1 class="title">Hero Title</h1>
+						<h2 class="subtitle">Hero Subtitle</h2>
+					</div>
+				</div>
+			</section>
+			<section class="hero is-info">
+				<div class="hero-body">
+					<div class="container">
+						<h1 class="title">Hero Title</h1>
+						<h2 class="subtitle">Hero Subtitle</h2>
+					</div>
+				</div>
+			</section>
+			<section class="hero is-primary">
+				<div class="hero-body">
+					<div class="container">
+						<h1 class="title">Hero Title</h1>
+						<h2 class="subtitle">Hero Subtitle</h2>
+					</div>
+				</div>
+			</section>
+			<section class="hero is-success">
+				<div class="hero-body">
+					<div class="container">
+						<h1 class="title">Hero Title</h1>
+						<h2 class="subtitle">Hero Subtitle</h2>
+					</div>
+				</div>
+			</section>
+			<section class="hero is-warning">
+				<div class="hero-body">
+					<div class="container">
+						<h1 class="title">Hero Title</h1>
+						<h2 class="subtitle">Hero Subtitle</h2>
+					</div>
+				</div>
+			</section>
+			<section class="hero is-danger">
+				<div class="hero-body">
+					<div class="container">
+						<h1 class="title">Hero Title</h1>
+						<h2 class="subtitle">Hero Subtitle</h2>
+					</div>
+				</div>
+			</section>
+		</div>
+
+		<!-- Cards (like panels) -->
+		<div class="block">
+			<div class="card">
+				<div class="card-content">
+					<p class="title">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia aliquid ipsam, quis enim illum
+						fuga quod debitis magnam nam perferendis corporis ab voluptatum nobis commodi veritatis ducimus odit aperiam
+						consequatur?</p>
+				</div>
+				<footer class="card-footer">
+					<p class="card-footer-item">
+						<span>
+							<a href="#"><i class="fa fa-twitter"></i>Twitter</a>
+						</span>
+					</p>
+					<p class="card-footer-item">
+						<span>
+							<a href="#"><i class="fa fa-facebook"></i>Facebook</a>
+						</span>
+					</p>
+				</footer>
+			</div>
+		</div>
+
+		<!-- Pagination -->
+		<div class="block">
+			<nav class="pagination">
+				<a href="" class="pagination-previous" disabled>Previous</a>
+				<a href="" class="pagination-next">Next page</a>
+				<ul class="pagination-list">
+					<li>
+						<a href="" class="pagination-link is-current">1</a>
+					</li>
+					<li>
+						<a href="" class="pagination-link">2</a>
+					</li>
+					<li>
+						<a href="" class="pagination-link">3</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+
+		<!-- Level -->
+		<div class="block">
+			<div class="level">
+				<!-- left side -->
+				<div class="level-left">
+					<p class="level-item">
+						<a<strong>All</strong></a>
+					</p>
+					<p class="level-item"><a>Published</a></p>
+					<p class="level-item"><a>Draft</a></p>
+					<p class="level-item"><a>Deleted</a></p>
+					<p class="level-item is-primary"><a class='button is-primary'>New</a></p>
+				</div>
+				<!-- right side -->
+				<div class="level-right">
+					<div class="level-item">
+						<div class="field">
+							<p class="control">
+								<input type="text" class="input" placeholder='Search posts ...'>
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Forms -->
+		<!-- field -->
+		<div class="block">
+			<form>
+				<div class="field">
+					<label class="label">Name</label>
+					<input type="text" class='input' placeholder="Enter Name">
+				</div>
+				<div class="field">
+					<label class="label">Name</label>
+					<input type="text" class='input is-primary' placeholder="Enter Name">
+				</div>
+				<div class="field">
+					<label class="label">Name</label>
+					<input type="text" class='input is-danger' placeholder="Enter Name">
+				</div>
+				<!-- select -->
+				<div class="field">
+					<label class="label">Package</label>
+					<p class="control">
+						<span class="select">
+							<select>
+								<option>Select dropdown</option>
+								<option>Simple</option>
+								<option>Standard</option>
+								<option>Super</option>
+							</select>
+						</span>
+					</p>
+				</div>
+				<!-- text area -->
+				<div class="field">
+					<label class="label">Message</label>
+					<p class="control">
+						<textarea class="textarea" placeholder="Textarea..."></textarea>
+					</p>
+				</div>
+			</form>
+		</div>
+
+		<!-- Attached -->
+		<div class="block">
+			<div class="field has-addons">
+				<p class="control">
+					<span class="select">
+						<select>
+							<option>Currency</option>
+							<option>$</option>
+							<option>€</option>
+							<option>£</option>
+						</select>
+					</span>
+				</p>
+				<p class="control">
+					<input type="text" class="input" placeholder="Enter amount">
+				</p>
+				<p class="control">
+					<a href="" class="button is-info">Pay</a>
+				</p>
+			</div>
+		</div>
+
+		<!-- Tables -->
+
+
+
+
+	</div><!-- /. container -->
+
+	<div style="margin-top: 500px"></div>
 </body>
 
 </html>
